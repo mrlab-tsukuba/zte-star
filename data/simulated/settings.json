@@ -1,0 +1,42 @@
+{
+  "name": "paper",
+  "M": 144,
+  "P": 144,
+  "k": 55,
+  "NR": 128,
+  "fov": [
+    1,
+    1,
+    1
+  ],
+  "n_adc_delay": 1.5,
+  "radial_matrix_size": 64,
+  "radial_AF": 4.5,
+  "radial_n_pro": 2948,
+  "radial_n_rep": 16,
+  "L": 64,
+  "oversampling": 4.0,
+  "n_seg_forward": 64,
+  "noise_sd": 0.0,
+  "device": "cuda:0",
+  "material_json": "/workdir/jmri_package/data/material.json",
+  "time_json": "/workdir/jmri_package/data/step_3p.json",
+  "n_gap": 5,
+  "over_sampling": 4,
+  "matrix_size": [
+    64,
+    64,
+    64
+  ],
+  "n_window": 3,
+  "lamda": 1e-06,
+  "n_iter": 50,
+  "n_calc_seg": 1,
+  "finite_support": true,
+  "radial_n_window": 5,
+  "TR_sec": 0.0012,
+  "n_spokes": 41472,
+  "spokes_per_frame": 864,
+  "n_frames": 48,
+  "frame_sec": 1.0368
+}
